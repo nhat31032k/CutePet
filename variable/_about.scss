@@ -1,0 +1,109 @@
+.about{
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../images/bg.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    &-img{
+          width:600px;
+          height:800px;
+    }
+    &-img img{
+        // width:100%;
+        // height:100%;
+        margin: 6rem 0 0 0;
+        object-fit: contain;
+        object-position: center;
+        
+            margin-bottom: 40px;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #ffffff;
+            box-shadow: 1px 1px 5px 1px #CCCCCC;
+           
+    
+    }
+    &-text{
+        margin:-15rem 0 0 0;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &-text p{
+        font-size: 25px;
+    }
+    &-text h2{
+        font-size: 2.3rem;
+        margin: 10px 0;
+        color: #1c1d20;
+    }
+    &-text span{
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 550;
+        text-align: center;
+        padding: 0 0 1rem 0;
+        background-image: linear-gradient(to right,rgb(255, 151, 29),rgb(61, 108, 185));
+        text-transform: uppercase;
+        display: block;
+        color: transparent;
+        -webkit-background-clip:text ;
+        background-clip:text;
+    }
+    &-btns{
+        display: flex;
+        // flex-direction: row-reverse;
+        
+    }
+    &-text{
+      
+        width:520px;
+    }
+    &-wrapper {
+        height: 30px;
+        position: relative;
+        left: -350px;
+        width: 200px;
+        margin: -15rem 2rem 0 0;
+       
+    }
+    &_shape {
+        fill: transparent;
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+        stroke: rgb(250, 201, 41);
+    }
+    &-wrapper:hover &_shape {
+        -webkit-animation: 0.5s draw linear forwards;
+        animation: 0.5s draw linear forwards;
+    }
+    &_chose{
+        color: rgb(19, 1, 1);
+        font-family: 'Roboto Condensed';
+        font-size: 35px;
+        // letter-spacing: 8px;
+        line-height: 32px;
+        position: absolute;
+        top: 50%;
+        // left: 50%;
+        transform: translate(10%,-40%);
+        // text-align: center;
+        // top: -25px;
+        font-weight: 500;
+        border-bottom: 0.7px solid rgb(250, 201, 41);
+        background-image: linear-gradient(to left,rgb(247, 179, 45),rgb(15, 201, 231));
+        text-transform: uppercase;
+        display: block;
+        color: transparent;
+        -webkit-background-clip:text ;
+        background-clip:text;
+      }
+}
