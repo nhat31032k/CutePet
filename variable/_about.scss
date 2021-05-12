@@ -1,5 +1,5 @@
 .about{
-    margin: 1rem 0 0 0;
+    margin: 6rem 0 0 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -10,8 +10,14 @@
     background-position: center;
     position: relative;
     &-img{
-          width:600px;
-          height:800px;
+            // background-image: url(../images/cute5.jpg);
+          width:500px;
+          height:400px;
+          margin-top: -15rem;
+        // margin:0 0 2rem -3.7rem!important;
+        //   background-size: 1000px;
+        //   background-repeat: no-repeat;
+        //   background-position: center center;
     }
     &-img img{
         // width:100%;
@@ -30,7 +36,7 @@
     
     }
     &-text{
-        margin:-15rem 0 0 0;
+        margin:-1rem 0 0 0;
         width: 800px;
         display: flex;
         flex-direction: column;
@@ -59,6 +65,7 @@
     }
     &-btns{
         display: flex;
+        margin: 17rem 0 0 3rem;
         // flex-direction: row-reverse;
         
     }
