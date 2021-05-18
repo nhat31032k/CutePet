@@ -1,426 +1,235 @@
-@media(max-width:1200px){
-    .services-container{
-        width:100%;
-    }
-}
-@media (max-width:1150px) {
-    .main{
-        background-position: left bottom;
-    }
-}
-@media(max-width:1030px){
+
+@media screen and (max-width:1024px){
     .main{
         &-text{
             top:65rem !important;
         }
     }
     .pet-logo{
-        margin-top: 4rem;
+        margin-top: 10rem;
         &-img{
             margin: 5px 20px;
         }
     }
     .about{
-        margin-top: 20rem;
-        &-wrapper{
-            top:120px;
-            left: 10px;
-        }
-        &-text span{
-            font-size: 45px;
-        }
-    }
-    .about2{
-        margin: 10rem 0 0 0;
-    }
-   .contact-box-title{
-       margin: -80px 10px 10px 10px;
-   }
-}
-@media (max-width:1000px){
-  
-    .logo__cute{
-        height: 150px!important;
-    }
-    .pet-logo-img{
-        height: 10px;
-        margin: 5px 10px;
-    }
-    .list{
-        &-services,&-contact{
-            padding: 0.5rem 1rem!important;
-        }
-    }
-    .main{
+        margin-top: 10rem;
+        grid-template-columns: 1fr;
         &-text{
-        top: 53rem !important;
+            width: 85%;
+            margin:-1rem 0 0 5.2rem;
         }
-    }
-    .about{
-        // margin-top: 15rem;
-        margin: -60rem 0 0 0;
-        flex-direction: column-reverse;
-        // justify-content: center;
         &-img{
-            //  margin-left: 12rem;
-            // margin-bottom: 2rem;
-        }
-        &-text{
-            // margin-top: 2rem;
-            width: 80%;
+              width:700px;
+              height:550px;
+           margin-left: 10rem;
         }
         &-wrapper{
-            margin:70rem 2rem 0 0;
-            left: 1%;
-        }
-        // &-btns{
-        //     margin-top:30rem;
-        // }
-    }
-    .about2{
-        margin:10rem 0 0 2rem;
-    }
-    .services{
-        margin:1rem 0 0 0;
-        &-container{
-            width: 95%;
-        }
-    }
-    .contact{
-       &-box-container{            
-            margin-top: -40px;            
-        }
-        &-box-title{
-            margin-top: -60px;            
-
+            margin:-5rem 0 0 3.2rem;
         }
     }
     
+    .about2{
+        margin: 10rem 0 10rem 0;
+    }
+    .contact{
+        margin-top: 5rem;
+        &-box-title{
+            margin: 80px 10px 2rem 10px;
+        }
+    }
+   footer{
+       width:100%;
+       margin-top: 15rem;
+   }
+
 }
-@media(max-width:780px){
+@media screen and (max-width:768px){
     .main{
         &-text{
-            top: 48rem!important;
+            margin: -10rem 0 0 0;
         }
     }
     .pet-logo{
-        margin-top: 10rem;
+        margin: 17rem 0 0 0;
+        flex-wrap: wrap;
+        // padding-top: 2rem;
+        // justify-content: space-around;
+        &-img{
+            margin-bottom: 5rem;
+        }
     }
     .about{
-        margin-top: -71rem;
         &-text{
-            margin-top: 1rem;
+            margin-left: 7rem;
+            width: 60%;
         }
         &-img{
               width:450px;
-              height:500px;
-            //   margin-bottom: 4rem;
-        }
-        &-img img{
-            margin: 8rem 0 0 0;
-        }
-        &-btns{
-            // width:500px;
-            margin-top: -8rem;
-            margin-bottom: 2rem;
+              height:400px;
         }
         &-wrapper{
-            margin:80rem 2rem 0 0;
+            margin:-6rem 0 0 -0.5rem;
         }
     }
     .services{
         &-container{
-            width: 100%;
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
+            width: 95%;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
         }
-        &-heading strong{
-            // font-size: 1.4rem;
-            text-align: center;
-        }
+
     }
     .about2{
-        margin-top:-5rem;
-
-    }
-    .contact{
-        margin: 10rem 0 6rem 0 ;
-        &-box-title{
-            padding: 0;
-        }
-    }
-}
-@media(max-width:600px){
-    .main{
-        min-height: auto;
-        background-size: 1400px;
+        margin-top: -2rem;
         &-text{
-            width: 70%!important;
-            position: static;
-            flex-direction: column;
-            align-items: center;
-            transform: translate(0,0);
+            margin-left: 2rem;
+            width: 80%;
         }
-        &-wrapper{
-            margin:0 0 0 -1rem!important;
-        }
-    }
-    .pet-logo{
-        margin: 12rem 0 1rem 0;
-        flex-wrap: wrap;
-
         &-img{
-            margin:50px 15px;
+              width:450px;
+              height:400px;
         }
-    }
-
-    .about{
-        margin: -10rem 0 0 8rem;
-        // position: relative;
-        &-text{
-            width: 70%;
-            position:static;
-            flex-direction: column;
-            // align-items: center;
-            // justify-content: center;
-            margin:-18rem 0 0 -5rem;
-            
-
-        }
-        &-btns{
-            margin: 5rem 0 0 -33rem;
-        }
-        &-img img {
-            width: 75%;
-            height:auto;
-        }
-    }
-    .services{
-        margin: -18rem 0 0 0;
-    }
-    .about2{
-        margin:10rem 0 0 5rem;
-    }
-    .contact{
-        // margin: -1rem 0 5rem 0;
     }
 }
-@media(max-width:420px){
 
-    .logo__cute img{
-        max-width:85%;
-        height: 230px!important;   
+@media screen and (max-width:420px){
+    .navigation {
+        padding: 2rem 0.5%!important;
     }
-    .navigation{
-        padding: 2.5rem 3% !important;
-        // margin:-0.4rem 0 0 0;
+    .logo__cute{
+        margin: -2rem 0 0 -0.5rem!important;
+        height: 200px!important;
     }
+   
     .list{
-        margin:-0.1rem 0 0 0!important;
-        &-services{
-            padding: 0.2rem 1.5rem!important;
+        margin:-2rem 0 0 2rem!important;
+        &-services,&-contact{
+            padding: 0.3rem 1.2rem!important;
+
         }
         &-services img{
-            margin-right: 0.5rem!important;
-              width:25px;
-              height:25px;
+              width:30px;
+              height:30px;
+              margin-left: 0.2rem;
         }
         &-services span{
-            font-size: 18px;
-        }
-        &-contact{
-            padding: 0.2rem 1.5rem!important;
+            display: inline-block;
+            margin-left: -0.5rem;
+            font-size: 1.3rem;
         }
         &-contact img{
-            margin-right: 0.5rem!important;
-              width:25px;
-              height:25px;
-        }
-        &-contact span{
-            font-size: 18px;
-        }
-    }
-    // .navigation{
-    //     // margin-left:1rem;
-    // }
-    svg{
-          width: 130px !important;
+            width:30px;
+            height:30px;
+            margin-left: 0.2rem;
+      }
+      &-contact span{
+          display: inline-block;
+          font-size: 1.3rem;
+          margin-left: -0.5rem;
+      }
     }
     .main{
-        // margin-left: 2rem;
         &-text{
-            margin: -13rem 0 0 1rem;
+            width: 350px!important;
+            margin-top: -26rem;
         }
         &-text h1{
             font-size: 1.3rem!important;
         }
         &-text p{
-            font-size: 0.9rem!important;
-        }
-        &-btns{
-            margin-left: 0.7rem!important;
-        }
-        &_chose{
-            font-size: 20px!important;
-            transform: translate(20%,-40%) !important;
+            font-size: 1rem!important;
         }
         &_shape{
-          width: 130px !important;
-
-        }
-    }
-    .pet-logo{
-        margin: 2rem 0 0 0;
-        padding: 0;
-    }
-    .about{
-        margin: -75rem 0 0 4rem;
-        &-img {
-            width: 400px;
-            height: 500px;
-            margin:1rem 0  1rem 0;
-        }
-        &-btns{
-            margin-left: -6rem!important;
-        }
-        &-wrapper {
-            margin-right: -3rem;
+            height: 35px;
+            width: 140px;
         }
         &_chose{
-            font-size: 20px!important;
-            transform: translate(20%,-40%) !important;
+            font-size: 25px!important;
         }
-        &_shape{
-            width: 130px !important;
-  
-        }
-        &-text{
-            margin-top: -10rem;
-            width: 100%;
-        }
-        &-text span{
-            font-size: 28px;
-        }
-        &-text h2{
-            font-size: 1.3rem;
-        }
-        &-text p{
-            font-size: 0.9rem;
-        }
-    }
-    .services {
-        margin: -6rem 0 0 0;
-        &-heading span{
-            font-size: 28px;
-        }
-        &-heading strong{
-            font-size: 20px;
-        }
-        &-container{
-            width: 100%;
-        }
-        &-box strong{
-            font-size: 20px;
-        }
-        &-box p{
-            font-size: 15px;
-        }
-    }
-    .about2{
-        margin:3rem 0 0 6rem;
-    }
-    .contact{
-        margin: -3rem 0 0 0;
-        &-box-container{
-        flex-direction: column;
-        }
-        &-box-title{
-            margin-bottom: 5rem;
-            padding-bottom: 2rem;
-        }
-    }
-}
-@media(max-width:380px){
-    .pet-logo{
-        margin: -2rem 0 5rem 0;
-    }
-    .about{
-        margin: -75rem 0 0 2.5rem;
-    }
-}
-@media(max-width:330px){
-    .main{
-        max-width: 120%!important;
-        &-btns{
-            margin-left: -0.2rem!important ;
-        }
-        &-text{
-            margin: -16rem 0 0 0.5rem;
-        }
-    }
-    .list{
-        &-services{
-            padding: 0.1rem 1.2rem!important;
-        }
-        &-services img{
-            margin-right: 0.3rem!important;
-              width:23px;
-              height:23px;
-        }
-        &-services span{
-            font-size: 17px;
-        }
-        &-contact{
-            padding: 0.1rem 1.2rem!important;
-        }
-        &-contact img{
-            margin-right: 0.3rem!important;
-              width:23px;
-              height:23px;
-        }
-        &-contact span{
-            font-size: 17px;
+        &-wrapper{
+            margin-right: -1rem;
+            // margin-left: -6rem;
+            margin-left: -1rem!important;
         }
     }
     .pet-logo{
         margin-top: 7rem;
     }
     .about{
-        margin: -1rem 0 0 2.5rem;
-        &-img{
-              width:320px;
-              height:460px;
-              margin-bottom: 20rem;
-        }
+        margin-left: 2rem;
         &-text{
-            margin: -37rem 0 0 -4.5rem;
-            
+            width: 50%;
+            margin:15rem 0 0 -1rem;
+        }
+        &-text span{
+            font-size: 30px;
+        }
+        &-text h2{
+            font-size: 1.6rem;
+        }
+        &-text p{
+            font-size: 1.2rem;
+        }
+        &-img {
+            width:280px;
+            height:200px;
+            margin-left: 1.3rem;
+        }
+        &_shape{
+            height: 35px;
+            width: 140px;
+        }
+        &_chose{
+            font-size: 25px!important;
         }
         &-btns{
-            margin:-40rem 0 0 -26rem!important;
-            // height: 1000px;
+            margin: 17rem 0 0 22rem;
         }
         &-wrapper{
-            margin-right:-5rem;
+            // margin-right: -1rem;
+            // margin-left: -6rem;
+            // margin-left: -7rem!important;
         }
     }
     .services{
-        margin: -10rem 0 0 0;
+        margin-top: -5rem;
+        &-heading span{
+            font-size: 2rem;
+        }
+        &-heading strong{
+            font-size: 1.4rem;
+        }
+        &-box strong{
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        &-box p{
+            font-size: 1rem;
+        }
     }
     .about2{
-        margin: 25rem 0 0 3rem;
-        width: 100%;
+        &-text{
+            width: 100%;
+        }
+        &-text span{
+            font-size: 30px;
+        }
+        &-text h2{
+            font-size:1.5rem;
+        }
+        &-text p{
+            font-size: 1rem;
+        }
+        &-img{
+            margin-top: -6rem;
+              width:300px;
+              height:200px;
+        }
     }
     .contact{
-        margin: -15rem 0 0 0;
-        &-box-title{
-            margin-bottom: 8rem;
-        }
-        &-box-title p{
-            font-size: 15px;
-        }
-        &-box-title strong{
-            font-size: 1.2rem;
+        &-box-container{
+            flex-direction: column;
         }
     }
 }
+    

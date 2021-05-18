@@ -1,6 +1,6 @@
 
 .about2{
-    margin: -5rem 0 10rem 5rem;
+    margin: 2rem 0 10rem -5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,4 +11,60 @@
     background-position: center;
     position: relative;
     // flex-direction: column;
+
+
+    &-img{
+        // background-image: url(../images/cute5.jpg);
+      width:600px;
+      height:500px;
+    //   margin-top: -15rem;
+    // margin:0 0 2rem -3.7rem!important;
+    //   background-size: 1000px;
+    //   background-repeat: no-repeat;
+    //   background-position: center center;
+}
+&-img img{
+    // width:100%;
+    // height:100%;
+    margin: 6rem 0 0 0;
+    object-fit: contain;
+    object-position: center;
+    
+        margin-bottom: 40px;
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #ffffff;
+        box-shadow: 1px 1px 5px 1px #CCCCCC;
+       
+
+}
+&-text{
+    margin:-1rem 0 05rem;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+&-text p{
+    font-size: 25px;
+}
+&-text h2{
+    font-size: 2.3rem;
+    margin: 10px 0;
+    color: #1c1d20;
+}
+&-text span{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 550;
+    text-align: center;
+    padding: 0 0 1rem 0;
+    background-image: linear-gradient(to right,rgb(255, 151, 29),rgb(61, 108, 185));
+    text-transform: uppercase;
+    display: block;
+    color: transparent;
+    -webkit-background-clip:text ;
+    background-clip:text;
+}
 }    

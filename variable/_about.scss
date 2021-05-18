@@ -1,9 +1,17 @@
+// img{
+//     display: block;
+//     max-width: 100%;
+// }
+
 .about{
     margin: 6rem 0 0 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    // display: flex;
+    // justify-content: space-evenly;
+    // align-items: center;
+    display: grid;
+    grid-template-columns: 800px 1fr;
+    grid-template-rows: 1fr;
+    // flex-wrap: wrap;
     background-image: url(../images/bg.png);
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -11,9 +19,9 @@
     position: relative;
     &-img{
             // background-image: url(../images/cute5.jpg);
-          width:500px;
-          height:400px;
-          margin-top: -15rem;
+          width:600px;
+          height:500px;
+        //   margin-top: -15rem;
         // margin:0 0 2rem -3.7rem!important;
         //   background-size: 1000px;
         //   background-repeat: no-repeat;
@@ -36,7 +44,7 @@
     
     }
     &-text{
-        margin:-1rem 0 0 0;
+        margin:-1rem 0 0 12rem;
         width: 800px;
         display: flex;
         flex-direction: column;
@@ -65,7 +73,7 @@
     }
     &-btns{
         display: flex;
-        margin: 17rem 0 0 3rem;
+        margin: 17rem 0 0 35rem;
         // flex-direction: row-reverse;
         
     }
@@ -114,3 +122,17 @@
         background-clip:text;
       }
 }
+//  @media screen and (max-width:450px) {
+//      .about{
+//          margin: 3rem 0 0 3rem;
+//          grid-template-columns: 1fr;
+//          grid-template-rows: auto;
+//          &-img {
+//              margin-left: 12rem;
+//          }
+//         &-wrapper {
+//             margin-top: -4rem;
+//         }
+//      }
+//  }
+
